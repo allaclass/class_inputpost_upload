@@ -32,6 +32,7 @@ var txt_answer = document.getElementById('txt_answer');
 
 var div_postView = document.getElementById('postView');
 
+var src_mobile_url_no = "";
 var src_thumb = "";
 var src_notice_header = "";
 var src_guide = "";
@@ -103,7 +104,8 @@ function array_lv1_input(){
     var gNum = 0;
     
     // html source
-    final_reset(); // 테스트 필요함
+    final_reset();
+    html_mobile_url_no();
     html_thumb();
     html_notice_header();
     html_guide();
@@ -843,6 +845,21 @@ String.prototype.replaceAll = function(org, dest) {
 
 function final_reset(){
     fnl.value = '';
+}
+
+// html_mobile_url_no
+function html_mobile_url_no(){
+    src_mobile_url_no = '';
+    src_mobile_url_no += '<!-- 수정: 모바일 방지 -->\n';
+    src_mobile_url_no += '<div>\n';
+    src_mobile_url_no += '\t<script>\n';
+    src_mobile_url_no += '\t\tif (window.location.pathname.split("/")[1] === "m" && navigator.userAgent.indexOf("Tistory") === -1 && navigator.userAgent.indexOf("Android") === -1) {\n';
+    src_mobile_url_no += '\t\twindow.location.href = window.location.origin + window.location.pathname.substr(2);\n';
+    src_mobile_url_no += '\t\t}\n';
+    src_mobile_url_no += '\t</script>\n';
+    src_mobile_url_no += '</div>\n';
+    src_mobile_url_no += '<!-- /.수정: 모바일 방지 -->\n\n';
+    fnl.value += src_mobile_url_no;
 }
 
 // html_thumb
