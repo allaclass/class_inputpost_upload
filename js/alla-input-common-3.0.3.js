@@ -1036,8 +1036,8 @@ function nagative_words_to_html(nagawords){
     nagawords = nagawords.replaceAll('/.기움', '</i>');
     nagawords = nagawords.replaceAll('/줄', '<br>');
     nagawords = nagawords.replaceAll('/빈칸', '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
-    nagawords = nagawords.replaceAll('/빈칸숏', '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
-    nagawords = nagawords.replaceAll('/빈칸롱', '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+    nagawords = nagawords.replaceAll('/숏빈칸', '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+    nagawords = nagawords.replaceAll('/롱빈칸', '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
     nagawords = nagawords.replaceAll('/윗첨자', '<sup>');
     nagawords = nagawords.replaceAll('/.윗첨자', '</sup>');
     nagawords = nagawords.replaceAll('/아랫첨자', '<sub>');

@@ -928,8 +928,8 @@ function html_group_question_quiz(question){
     question = question.replaceAll('/.기움', '</i>');
     question = question.replaceAll('/줄', '<br>');
     question = question.replaceAll('/빈칸', '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
-    nagawords = nagawords.replaceAll('/빈칸숏', '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
-    nagawords = nagawords.replaceAll('/빈칸롱', '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+    nagawords = nagawords.replaceAll('/숏빈칸', '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+    nagawords = nagawords.replaceAll('/롱빈칸', '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
     question = question.replaceAll('/윗첨자', '<sup>');
     question = question.replaceAll('/.윗첨자', '</sup>');
     question = question.replaceAll('/아랫첨자', '<sub>');
