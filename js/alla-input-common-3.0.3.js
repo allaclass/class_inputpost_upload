@@ -58,7 +58,7 @@ var src_answer_table_footer = "";
 var src_shortcut = "";
 var src_notice_footer = "";
 
-// txt_info.value = "[과목명] \n[종  류] \n[연  도] \n[학  기] \n[학  년] \n[교수명] \n[셤범위] \n[시작넘] \n[종료넘] \n[썸네일] \n[정  답] ";
+txt_info.value = "[과목명] \n[종  류] \n[연  도] \n[학  기] \n[학  년] \n[교수명] \n[셤범위] \n[시작넘] \n[종료넘] \n[썸네일] \n[정  답] ";
 
 // txt_info data
 function info_input(){
