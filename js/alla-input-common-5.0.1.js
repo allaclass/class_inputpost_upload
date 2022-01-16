@@ -1049,6 +1049,8 @@ function nagative_words_to_html(nagawords){
     nagawords = nagawords.replaceAll('/.영소', '</div>');
     nagawords = nagawords.replaceAll('/한글 ', '<div class="allaExampleList_kor">');
     nagawords = nagawords.replaceAll('/.한글', '</div>');
+    nagawords = nagawords.replaceAll('/서클 ', '<div class="allaExampleList_circle">');
+    nagawords = nagawords.replaceAll('/.서클', '</div>');
     nagawords = nagawords.replaceAll('/중앙 ', '<div class="allaExampleAlign_center">');
     nagawords = nagawords.replaceAll('/.중앙', '</div>');
     nagawords = nagawords.replaceAll('/우측 ', '<div class="allaExampleAlign_right">');
