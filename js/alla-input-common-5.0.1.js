@@ -1469,10 +1469,10 @@ function html_answer_table_contents(){
     for(var i=0; i<=(parseInt(txt_count.value))-1; i++){
         var question_num = i + parseInt(txt_snum.value);
         if(question_num<10){
-            src_answer_table_contents = '\t\t\t<tr><td>0'+question_num+'</td><td>'+array_answer[i]+'</td><td></td><td><img src="" width="26px"></td><td><img src="" id="shortcut-0'+question_num+'" width="26px"></td></tr>\n';
+            src_answer_table_contents = '\t\t\t<tr><td>0'+question_num+'</td><td>'+array_answer[i]+'</td><td></td><td><img src="" width="26px"></td><td><img src="" id="shortcut-v501-0'+question_num+'" width="26px"></td></tr>\n';
             fnl.value += src_answer_table_contents;
         }else{
-            src_answer_table_contents = '\t\t\t<tr><td>'+question_num+'</td><td>'+array_answer[i]+'</td><td></td><td><img src="" width="26px"></td><td><img src="" id="shortcut-'+question_num+'" width="26px"></td></tr>\n';
+            src_answer_table_contents = '\t\t\t<tr><td>'+question_num+'</td><td>'+array_answer[i]+'</td><td></td><td><img src="" width="26px"></td><td><img src="" id="shortcut-v501-'+question_num+'" width="26px"></td></tr>\n';
             fnl.value += src_answer_table_contents;
         }   
     }
