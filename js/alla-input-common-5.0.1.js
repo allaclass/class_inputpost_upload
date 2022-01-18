@@ -1026,6 +1026,8 @@ function nagative_words_to_html(nagawords){
     nagawords = nagawords.replaceAll('/.부정', '</span>');
     nagawords = nagawords.replaceAll('/밑줄', '<span class="iunder">');
     nagawords = nagawords.replaceAll('/.밑줄', '</span>');
+    nagawords = nagawords.replaceAll('/윗줄', '<span class="iover">');
+    nagawords = nagawords.replaceAll('/.윗줄', '</span>');
     nagawords = nagawords.replaceAll('/굵게', '<span class="ibold">');
     nagawords = nagawords.replaceAll('/.굵게', '</span>');
     nagawords = nagawords.replaceAll('/기움', '<i>');
