@@ -954,7 +954,7 @@ function btn_lv2(){
 
 // auto post_title
 function post_title(){
-    txt_title.value = '방송대 '+txt_object.value+' '+txt_kind.value+'시험 20'+txt_year.value+'년도 '+txt_seme.value+'학기 '+txt_grade.value+'학년 / 올에이클래스 모의고사';
+    txt_title.value = '방송대 '+txt_object.value+' '+txt_kind.value+'시험 20'+txt_year.value+'년도 '+txt_seme.value+'학기 '+txt_grade.value+'학년 / 올에이클래스 기출문제 모의고사';
 }
 
 // auto post_tag
