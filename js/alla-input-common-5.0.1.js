@@ -1049,8 +1049,16 @@ function nagative_words_to_html(nagawords){
     nagawords = nagawords.replaceAll('/.바', '</div>');
     nagawords = nagawords.replaceAll('/영소 ', '<div class="allaExampleList_eng">');
     nagawords = nagawords.replaceAll('/.영소', '</div>');
+    nagawords = nagawords.replaceAll('/영대괄호 ', '<div class="allaExampleList_eng_big_bra">');
+    nagawords = nagawords.replaceAll('/.영대괄호', '</div>');
+    nagawords = nagawords.replaceAll('/영소괄호 ', '<div class="allaExampleList_eng_small_bra">');
+    nagawords = nagawords.replaceAll('/.영소괄호', '</div>');
     nagawords = nagawords.replaceAll('/한글 ', '<div class="allaExampleList_kor">');
     nagawords = nagawords.replaceAll('/.한글', '</div>');
+    nagawords = nagawords.replaceAll('/한글괄호 ', '<div class="allaExampleList_kor_bra">');
+    nagawords = nagawords.replaceAll('/.한글괄호', '</div>');
+    nagawords = nagawords.replaceAll('/자음괄호 ', '<div class="allaExampleList_kor_con_bra">');
+    nagawords = nagawords.replaceAll('/.자음괄호', '</div>');
     nagawords = nagawords.replaceAll('/서클 ', '<div class="allaExampleList_circle">');
     nagawords = nagawords.replaceAll('/.서클', '</div>');
     nagawords = nagawords.replaceAll('/중앙 ', '<div class="allaExampleAlign_center">');
