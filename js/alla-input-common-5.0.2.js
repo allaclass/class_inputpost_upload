@@ -35,6 +35,7 @@ var src_thumb = "";
 var src_notice_header = "";
 var src_guide = "";
 var src_title = "";
+var src_adsense = "";
 var src_example_txt = "";
 var src_example_txt_add = "";
 var src_example_img = "";
