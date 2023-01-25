@@ -109,6 +109,7 @@ function array_lv1_input(){
     html_notice_header();
     html_guide();
     html_title();
+    html_adsense();
 
     for(var i=0; i<100; i++){
         // sNum(start number), nNum(next number), eNum(end number)
@@ -1138,6 +1139,16 @@ function html_title(){
     src_title += '</table>\n';
     src_title += '<!-- ------------------------------------------------------------------------------------ -->\n\n';
     fnl.value += src_title;
+}
+
+// html_adsense
+function html_adsense(){
+    src_adsense = '';
+    src_adsense += '<!-- 애드센스 수동광고 영역 -->\n';
+    src_adsense += '<figure class="ad-wp" contenteditable="false" data-ke-type="revenue" data-ad-vendor="adsense" data-ad-id-pc="64535" data-ad-id-mobile="68630"></figure>\n';
+    src_adsense += '<p data-ke-size="size16">&nbsp;</p>\n';
+    src_adsense += '<!-- ------------------------------------------------------------------------------------ -->\n\n';
+    fnl.value += src_adsense;
 }
 
 // html_group_question_quiz
