@@ -105,7 +105,7 @@ function array_lv1_input(){
     
     // html source
     final_reset();
-    html_mobile_url_no();
+    // html_mobile_url_no();
     html_thumb();
     html_notice_header();
     html_guide();
