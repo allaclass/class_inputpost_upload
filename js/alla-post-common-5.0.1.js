@@ -345,7 +345,7 @@ $(document).ready(function(){
     var examKind = $("table.allaTitleTbl tr:nth-of-type(3) td:nth-of-type(2)").html();
     var divOtherExamWrap = $("div.allaOtherExamDiv");
     
-    // divOtherExamWrap.html('<a href="https://allaclass.tistory.com/tag/'+examTitle+'%20'+examKind+'" target="_top"><div><span class="allaOtherTitle">\''+examTitle+' '+examKind+'\'</span> 타년도 모의고사</div><div>방송대 '+examTitle+' 기말시험 2019년도 / 올에이클래스 모의고사<br>방송대 '+examTitle+' 기말시험 2018년도 / 올에이클래스 모의고사<br>방송대 '+examTitle+' 기말시험 2017년도 / 올에이클래스 모의고사<br>방송대 '+examTitle+' 기말시험 2016년도 / 올에이클래스 모의고사<br>방송대 '+examTitle+' 기말시험 2015년도 / 올에이클래스 모의고사<br>방송대 '+examTitle+' 기말시험 2014년도 / 올에이클래스 모의고사<br>방송대 '+examTitle+' 기말시험 2013년도 / 올에이클래스 모의고사<br></div></a>');
+    divOtherExamWrap.html('<a href="https://allaclass.tistory.com/tag/'+examTitle+'%20'+examKind+'" target="_top"><div><span class="allaOtherTitle">\''+examTitle+' '+examKind+'\'</span> 타년도 모의고사</div><div>방송대 '+examTitle+' 기말시험 2019년도 / 올에이클래스 모의고사<br>방송대 '+examTitle+' 기말시험 2018년도 / 올에이클래스 모의고사<br>방송대 '+examTitle+' 기말시험 2017년도 / 올에이클래스 모의고사<br>방송대 '+examTitle+' 기말시험 2016년도 / 올에이클래스 모의고사<br>방송대 '+examTitle+' 기말시험 2015년도 / 올에이클래스 모의고사<br>방송대 '+examTitle+' 기말시험 2014년도 / 올에이클래스 모의고사<br>방송대 '+examTitle+' 기말시험 2013년도 / 올에이클래스 모의고사<br></div></a>');
 
 });
 
