@@ -220,6 +220,8 @@
         background-color: rgba(220, 220, 220, 0);
         text-align: center;
         line-height: 0px;
+        height: 100px;
+        background-color: rgb(200,200,200);
     }
     /* 보기그림 내 그림 */
     table.allaBasicTbl tr.allaExampleTr_Img td:last-of-type img {
